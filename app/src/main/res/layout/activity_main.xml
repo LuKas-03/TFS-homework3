@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context=".MainActivity">
+
+    <tfs.homeworks.homework3.TagsViewGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            app:tvg_indent_size = "10dp"
+            app:tvg_tags_height = "40dp">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:text="@string/tag1"
+                android:textSize="18sp"
+                android:background="@android:color/darker_gray"
+                android:paddingLeft="5dp" android:paddingRight="5dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:text="@string/tag2"
+                android:textSize="18sp"
+                android:background="@android:color/darker_gray"
+                android:paddingLeft="5dp" android:paddingRight="5dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:text="@string/tag3"
+                android:textSize="18sp"
+                android:background="@android:color/darker_gray"
+                android:paddingLeft="5dp" android:paddingRight="5dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:text="@string/tag4"
+                android:textSize="18sp"
+                android:background="@android:color/darker_gray"
+                android:paddingLeft="5dp" android:paddingRight="5dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:text="@string/tag5"
+                android:textSize="18sp"
+                android:background="@android:color/darker_gray"
+                android:paddingLeft="5dp" android:paddingRight="5dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="26dp"
+                android:text="@string/tag6"
+                android:textSize="18sp"
+                android:background="@android:color/darker_gray"
+                android:paddingLeft="5dp" android:paddingRight="5dp"/>
+    </tfs.homeworks.homework3.TagsViewGroup>
+</android.support.constraint.ConstraintLayout>

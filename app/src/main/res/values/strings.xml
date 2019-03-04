@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">homework3</string>
+    <string name="tag1">Сокольники</string>
+    <string name="tag2">Водный стадион</string>
+    <string name="tag3">Сокол</string>
+    <string name="tag4">Студенческая</string>
+    <string name="tag5">Водный стадион</string>
+    <string name="tag6">Электрозаводская</string>
+</resources>

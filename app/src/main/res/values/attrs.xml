@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TagsViewGroup">
+        <attr name="android:layout_gravity" />
+        <attr name="tvg_indent_size" format="dimension" />
+        <attr name="tvg_tags_height" format="dimension"/>
+    </declare-styleable>
+</resources>
